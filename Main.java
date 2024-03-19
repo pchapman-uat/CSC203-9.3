@@ -10,18 +10,19 @@ import java.util.Scanner;
 
 public class Main {
     // Create a new scanner object
-    Scanner scanner = new Scanner(System.in);   
+    static Scanner scanner = new Scanner(System.in);   
 
     // Create a function that prints a message and then returns the next line
-    public String input(String msg){
+    public static String input(String msg){
         System.out.println(msg);
-        return scanner.nextLine();
+        String testing = scanner.nextLine();
+        return testing;
     }
 
     // Function to add classes to a student, this accepts a Student object
     // This would idealy be put within the class, but due to it using the scanner, I was unable to do so
     // I attempted to put the scanner as an input to the function but that failed
-    public void addClasses(Student student){
+    public static void addClasses(Student student){
         // Get the number of classes from the user 
         int  totalClasses = Integer.parseInt(input("How many calsses should " + student.firstName + " take?"));
         // Create an array for the number of classes
@@ -35,7 +36,7 @@ public class Main {
         // Add all the classes to the student
         student.addClasses(allClasses);
     }
-    public void main(String[] args) {
+    public static void main(String[] args) {
         
         System.out.println("\t\t Welcome to UAT\n");
 
