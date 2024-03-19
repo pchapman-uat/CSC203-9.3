@@ -1,0 +1,123 @@
+                 Welcome to UAT
+
+What would you like to do:
+Create | List | AddClasses | Action | Leave
+Create  
+What is their first name
+Billy
+What is their last name
+Bob
+What is their age (0 for none)
+23
+What is their title        
+Staff | Professor | Student
+Student
+What would you like to do:
+Create | List | AddClasses | Action | Leave 
+List
+list what type?
+Staff | Professor | Student
+Student
+Hello! My name is John Doe and I am 19 years old 
+My Title is: Student
+John Is taking the following clases..
+CSC230
+
+Hello! My name is Billy Bob and I am 23 years old
+My Title is: Student
+
+What would you like to do:
+Create | List | AddClasses | Action | Leave      
+addClasses
+[1]John Doe
+[2]Billy Bob
+What student do you want to add classes too?
+2
+How many calsses should Billy take?
+3
+Please enter the class ID
+CSC230
+Please enter the class ID
+BUS200
+Please enter the class ID
+CSC310
+What would you like to do: 
+Create | List | AddClasses | Action | Leave
+List
+list what type?
+Staff | Professor | Student
+Student
+Hello! My name is John Doe and I am 19 years old
+My Title is: Student
+John Is taking the following clases..
+CSC230
+
+Hello! My name is Billy Bob and I am 23 years old
+My Title is: Student
+Billy Is taking the following clases..
+CSC230
+BUS200
+CSC310
+
+What would you like to do:
+Create | List | AddClasses | Action | Leave
+action
+Staff | Professor | Student
+Student
+[1]John Doe
+[2]Billy Bob
+What staff should do an action?
+1
+What action should Johndo?
+Eat | Sleep | getLocation | setLocation | setPassword | Study |
+Study
+Johnis now studding CSC230
+What would you like to do:
+Create | List | AddClasses | Action | Leave
+action
+Staff | Professor | Student
+Student
+[1]John Doe
+[2]Billy Bob
+What staff should do an action?
+2
+What action should Billydo?
+Eat | Sleep | getLocation | setLocation | setPassword | Study |
+setPassword
+Please enter the password (Numbers only)
+101
+What would you like to do:
+Create | List | AddClasses | Action | Leave
+action
+Staff | Professor | Student
+student
+[1]John Doe
+[2]Billy Bob
+What staff should do an action?
+2
+What action should Billydo?
+Eat | Sleep | getLocation | setLocation | setPassword | Study |
+setLocation
+Please enter the password (Numbers only)
+101
+Please enter the location
+Dorm
+What would you like to do:
+Create | List | AddClasses | Action | Leave
+action
+Staff | Professor | Student
+student
+[1]John Doe
+[2]Billy Bob
+What staff should do an action?
+2
+What action should Billydo?
+Eat | Sleep | getLocation | setLocation | setPassword | Study |
+getLocation
+Please enter the password (Numbers only)
+101
+Billy Is currently at Dorm
+What would you like to do:
+Create | List | AddClasses | Action | Leave
+leave
+Finished
